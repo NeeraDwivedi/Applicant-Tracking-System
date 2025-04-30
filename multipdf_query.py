@@ -12,7 +12,8 @@ from dotenv import load_dotenv
 
 # Load environment variables and configure the API key
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+#genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyDqFvBOtwVFk6rzJ57qgVQWUd0U3glgkNA")
 
 # Directory to store uploaded PDFs
 PDF_DIR = "uploaded_pdfs"
